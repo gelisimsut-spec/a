@@ -57,3 +57,8 @@ Uygulama ilk açılışta aşağıdaki tabloları otomatik oluşturur:
 - `UretimPlan`
 
 Bu tablolar mevcut yapı ile uyumlu şekilde ek modüller için kullanılır.
+
+
+## Telif Hakkı
+
+© 2026 Morina Tech. Tüm hakları saklıdır.

@@ -447,6 +447,9 @@ module = st.sidebar.radio(
     ["Dashboard", "Cari Yönetimi", "Sipariş Yönetimi", "Muhasebe", "Santral Entegrasyonu"],
 )
 st.sidebar.caption("MCS Beton Operasyon Merkezi • v2")
+st.sidebar.caption("© 2026 Morina Tech. Tüm hakları saklıdır.")
+
+st.markdown("<div style='text-align:center;color:#6b7280;font-size:12px;margin-top:18px;'>© 2026 Morina Tech. All rights reserved.</div>", unsafe_allow_html=True)
 
 with SessionLocal() as db:
     if module == "Dashboard":
